@@ -1,6 +1,6 @@
 import useScripts from './useScripts';
 
-export default () => {
+export const GameContainer = () => {
 	useScripts();
 	return (
 		<>

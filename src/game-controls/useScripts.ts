@@ -18,7 +18,7 @@ const useScripts = () => {
 	useEffect(() => {
 		if (!loaded) {
 			scriptsToLoad.forEach(
-				async (script) => await import(`./js/${script}.js`),
+				async (script) => await import(`../lib/js/${script}.js`),
 			);
 			setLoaded(true);
 		}

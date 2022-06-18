@@ -63,6 +63,8 @@ body {
   border-radius: 3px;
   color: white;
   margin-top: 8px;
+  margin-left: .2rem;
+  margin-right: .2rem;
   text-align: center; }
   .score-container:after, .best-container:after {
     position: absolute;

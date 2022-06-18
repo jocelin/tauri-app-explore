@@ -1,4 +1,4 @@
-export default () => (
+export const GameCredits = () => (
 	<>
 		<hr />
 		<strong className="important">Credits:</strong>

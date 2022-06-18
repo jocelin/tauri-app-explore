@@ -1,16 +1,16 @@
 import { ReactNode } from 'react';
 
-import tile1 from './tile-assets/01_val2.jpg';
-import tile2 from './tile-assets/02_val4.jpg';
-import tile3 from './tile-assets/03_val8.jpg';
-import tile4 from './tile-assets/04_val16.jpg';
-import tile5 from './tile-assets/05_val32.jpg';
-import tile6 from './tile-assets/06_val64.png';
-import tile7 from './tile-assets/07_val128.jpg';
-import tile8 from './tile-assets/08_val256.jpg';
-import tile9 from './tile-assets/09_val512.jpg';
-import tile10 from './tile-assets/10_val1024.jpg';
-import tile11 from './tile-assets/11_val2048.jpg';
+import tile1 from '../lib/tile-assets/01_val2.jpg';
+import tile2 from '../lib/tile-assets/02_val4.jpg';
+import tile3 from '../lib/tile-assets/03_val8.jpg';
+import tile4 from '../lib/tile-assets/04_val16.jpg';
+import tile5 from '../lib/tile-assets/05_val32.jpg';
+import tile6 from '../lib/tile-assets/06_val64.png';
+import tile7 from '../lib/tile-assets/07_val128.jpg';
+import tile8 from '../lib/tile-assets/08_val256.jpg';
+import tile9 from '../lib/tile-assets/09_val512.jpg';
+import tile10 from '../lib/tile-assets/10_val1024.jpg';
+import tile11 from '../lib/tile-assets/11_val2048.jpg';
 
 interface TileImgProps {
 	children?: ReactNode;
@@ -99,7 +99,7 @@ const GameProgressionTable = () => (
 	</>
 );
 
-export default () => (
+export const GameIntro = () => (
 	<>
 		<GameHeader />
 		<GameDescription />

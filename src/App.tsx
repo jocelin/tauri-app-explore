@@ -1,18 +1,15 @@
-import { useEffect, useCallback, useMemo  } from "react";
-import GameContainer from './GameContainer';
-import GameIntro from './GameIntro';
-import GameCredits from './GameCredits';
+import { GameContainer, GameIntro, GameCredits } from './game-controls';
 
-import './style/main.css';
+import './lib/style/main.css';
 
 function App() {
-  return (
-    <div className='container'>
-      <GameIntro />
-      <GameContainer />
-      <GameCredits />
-    </div>
-  )
+	return (
+		<div className="container">
+			<GameIntro />
+			<GameContainer />
+			<GameCredits />
+		</div>
+	);
 }
 
-export default App
+export default App;
