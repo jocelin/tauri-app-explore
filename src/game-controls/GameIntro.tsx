@@ -40,7 +40,11 @@ const TileImg = ({ children, img }: TileImgProps) => (
 const GameHeader = () => (
 	<>
 		<div className="heading">
-			<div className="title">Sunflower Movement 2048</div>
+			<div className="title">
+				<a href='https://en.wikipedia.org/wiki/Sunflower_Student_Movement' target='_blank'>
+					Sunflower Movement 2048
+				</a>
+			</div>
 		</div>
 		<hr />
 		<div className="above-game">
